@@ -1,0 +1,72 @@
+<div class="m-person" >
+  <header>
+    <ul>
+      <li ></li>
+      <li >
+        <div>
+          <i>
+            <img src="/hongmenyan/images/touxiang.png"  />
+          </i>
+          <p>
+            昵称：宝哥
+          </p>
+        </div>
+      </li>
+      <li class="yo-ico">&#xe775;</li>
+    </ul>
+  </header>
+  <section spa-widget="scroll">
+    <div>
+      <div class="my_nav">
+        <ul>
+          <li>0</li>
+          <li>
+            <i class="yo-ico"></i>
+            <p>我的人脉</p>
+          </li>
+        </ul>
+        <ul>
+          <li>10</li>
+          <li>
+            <i class="yo-ico" ></i>
+            <p>我的钱包</p>
+          </li>
+        </ul>
+      </div>
+      <div class="my_list">
+        <ul>
+          <li>
+            <p class="yo-ico" style="color:#f07ade">&#xe600;</p>
+            <p>我的订单</p>
+            <p class="yo-ico">&#xe775;</p>
+          </li>
+          <li>
+            <p class="yo-ico" style="color:#62d154">&#xe61c;</p>
+            <p>我的积分</p>
+            <p class="yo-ico" >&#xe775;</p>
+          </li>
+          <li>
+            <p class="yo-ico" style="color:#f39800">&#xe636;</p>
+            <p>我的钱包</p>
+            <p class="yo-ico" action-type="goto.my_wallet">&#xe775;</p>
+          </li>
+          <li>
+            <p class="yo-ico" style="color:#5d96f6">&#xe609;</p>
+            <p>优惠券</p>
+            <p class="yo-ico">&#xe775;</p>
+          </li>
+          <li>
+            <p class="yo-ico" style="color:#f279ee">&#xec8c;</p>
+            <p>我的收藏</p>
+            <p class="yo-ico">&#xe775;</p>
+          </li>
+          <li>
+            <p class="yo-ico" style="color:#62d154">&#xe689;</p>
+            <p>分销中心</p>
+            <p class="yo-ico">&#xe775;</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>

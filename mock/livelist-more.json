@@ -1,0 +1,15 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/hongmenyan/images/tu3.png",
+      "title": "more店名1"
+    },
+    {
+      "imgsrc": "/hongmenyan/images/tu4.png",
+      "title": "more店名2"
+    }
+  ]
+}

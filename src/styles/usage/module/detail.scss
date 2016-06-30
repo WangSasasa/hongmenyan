@@ -1,0 +1,310 @@
+.m-detail{
+  @include flexbox();
+  @include flex-direction(column);
+  header{
+    //width: 100%;
+    background: #8e99ff;
+    height: .44rem;
+    ul{
+      @include flexbox();
+      height: 100%;
+      li{
+        font-size: .2rem;
+        &:not(:nth-child(2)){
+          width: .44rem;
+          text-align: center;
+          line-height: .44rem;
+          color: #fff;
+
+        }
+        &:nth-child(2){
+          @include flex(1);
+          width: 100%;
+          text-align: center;
+          line-height: .44rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+  section{
+    @include flex(1);
+    width: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    .banner{
+      @include flex(3);
+      width: 100%;
+      position: relative;
+      .banner_pic{
+        height: 100%;
+        img{
+          width: 100%;
+        }
+      }
+      .banner_txt_bg{
+        position: absolute;
+        height: .44rem;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.4);
+        z-index: 999;
+      }
+      .banner_txt{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1000;
+        p{
+          color: #fff;
+          padding-left: .13rem;
+          &.banner_txt_title{
+            font-size: .16rem;
+            line-height: .28rem;
+          }
+          &.banner_txt_con{
+            font-size: .13rem;
+            line-height:.16rem;
+          }
+        }
+      }
+
+    }
+    .details{
+      @include flex(7);
+      width: 100%;
+      @include flexbox();
+      @include flex-direction(column);
+      .pay{
+        height: .44rem;
+        margin: .04rem 0;
+        background: #fff;
+        @include flexbox();
+        .pay_discount{
+          width: 1.05rem;
+          padding-left: .2rem;
+          span{
+            line-height: .44rem;
+            &:nth-child(1){
+              font-size: .16rem;
+              font-weight: bold;
+              color: #ff0202;
+            }
+            &:nth-child(2){
+              font-size: .12rem;
+              color: #606060;
+            }
+          }
+        }
+        .pay_concent{
+          @include flex(1);
+        }
+        .pay_order{
+          width: 1rem;
+          padding: .09rem .15rem;
+          p{
+            background: #8e99ff;
+            font-size: .15rem;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            @include border-radius(.03rem);
+          }
+        }
+      }
+      .details_list{
+         color: #606060;
+        .details_merchant{
+          height: 1.65rem;
+          background: #fff;
+          ul{
+            padding: 0 .18rem;
+            @include flexbox();
+            @include flex-direction(column);
+            height: 100%;
+
+            li{
+              &:nth-child(1){
+                height: .42rem;
+                line-height: .42rem;
+                font-size: .18rem;
+                font-weight: bold;
+                color: #0a0a0a;
+              }
+              &:nth-child(2){
+                @include flex(1);
+                width: 100%;
+                @include border(1px 0 1px 0,#dcdcdc);
+                padding-top:.03rem;
+                p{
+                  &:nth-child(3){
+                    font-size: .12rem;
+                  }
+                  &:not(:nth-child(3)){
+                    font-size: .15rem;
+                    line-height: .3rem;
+                  }
+                }
+              }
+              &:nth-child(3){
+                height: .36rem;
+                line-height: .36rem;
+                font-size: .13rem;
+                @include flexbox();
+                i{
+                  &:nth-child(1){
+                    @include flex(1);
+                  }
+                  &:nth-child(2){
+                    width: .36rem;
+                    text-align: right;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .detail_expense{
+          margin: .08rem 0;
+          height: 3.18rem;
+          background: #fff;
+          >ul{
+            padding: 0 .18rem;
+            height: 100%;
+            >li{
+              &:nth-child(1){
+                height: .42rem;
+                line-height: .42rem;
+                font-size: .18rem;
+                font-weight: bold;
+                color: #0a0a0a;
+              }
+              &:nth-child(2){
+                @include border(1px 0 0 0,#dcdcdc);
+                ul{
+                  padding-top: .06rem;
+                  &:nth-child(1){
+                    height: .55rem;
+                    li{
+                      height: .4rem;
+                      @include flexbox();
+                      @include align-items(center);
+                    }
+                  }
+                  h3{
+                    font-size: .14rem;
+                    //padding-bottom: .03rem;
+                    font-weight: normal;
+                  }
+                  li{
+                    font-size: .13rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .detail_review{
+          height: 2.86rem;
+          background: #fff;
+          >ul{
+            padding: 0 .18rem;
+            height: 100%;
+            @include flexbox();
+            @include flex-direction(column);
+            >li{
+              &:nth-child(1){
+                height: .42rem;
+                line-height: .42rem;
+                font-size: .18rem;
+                font-weight: bold;
+                color: #0a0a0a;
+              }
+              &:nth-child(2){
+                @include flex(1);
+                width: 100%;
+                @include border(1px 0 1px 0,#dcdcdc);
+                ul{
+                  li{
+                    &:nth-child(1){
+                      padding-top: .03rem;
+                      @include flexbox();
+                      p{
+                        &:nth-child(1){
+                          width: .6rem;
+
+                        }
+                        &:nth-child(2){
+                          @include flex(1);
+                        }
+                        &:nth-child(3){
+                          width: .75rem;
+                          img{
+                            width: 100%;
+                          }
+                        }
+                      }
+                    }
+                    &:nth-child(2){
+                      padding: .03rem 0;
+                      font-size: .12rem;
+                    }
+                    &:nth-child(3){
+                      @include flexbox();
+                      p{
+                        width: .69rem;
+                        height: .69rem;
+                        margin-right: .1rem;
+                        overflow: hidden;
+                        &:nth-child(1){
+                          img{
+                            width: 100%;
+                            // height: 100%;
+                          }
+                        }
+                        &:not(:nth-child(1)){
+                          img{
+                            height: 100%;
+                          }
+                        }
+                      }
+                    }
+                    &:nth-child(4){
+                      margin-top: .11rem;
+                      background: #f3f5ff;
+                      height: .56rem;
+                      color: #8e99ff;
+                      padding: 0 .1rem;
+                      font-size: .1rem;
+                      @include flexbox();
+                      @include align-items(center);
+                    }
+                  }
+                }
+              }
+              &:nth-child(3){
+                height: .36rem;
+                line-height: .36rem;
+                font-size: .13rem;
+                @include flexbox();
+                i{
+                  &:nth-child(1){
+                    @include flex(1);
+                  }
+                  &:nth-child(2){
+                    width: .36rem;
+                    text-align: right;
+                  }
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

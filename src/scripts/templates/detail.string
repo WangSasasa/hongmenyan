@@ -1,0 +1,134 @@
+<div class="m-detail">
+  <header>
+    <ul>
+      <li action-type="back" class="yo-ico">&#xe679;</li>
+      <li >店铺详情</li>
+      <li></li>
+    </ul>
+  </header>
+  <section spa-widget="scroll">
+    <div>
+      <div class="banner">
+        <div class="banner_pic">
+          <img src="/hongmenyan/images/detail-banner.png" />
+        </div>
+        <div class="banner_txt_bg">
+        </div>
+        <div class="banner_txt">
+          <p class="banner_txt_title">
+            温柔的彩椒
+          </p>
+          <p class="banner_txt_con">
+            特色川菜&nbsp;【新用户专享】免预约
+          </p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="pay">
+          <div class="pay_discount">
+            <span>8.8</span>
+            <span>折优惠</span>
+          </div>
+          <div class="pay_concent">
+
+          </div>
+          <div class="pay_order" action-type="goto.pay">
+            <p>
+              立即订购
+            </p>
+          </div>
+        </div>
+        <div class="details_list">
+          <div class="details_merchant">
+            <ul>
+              <li>商家信息</li>
+              <li>
+                <p>
+                  温柔的彩椒(苏州街店)
+                </p>
+                <p>
+                  海淀区海淀南路13亿方大厦一、二层
+                </p>
+                <p>
+                  &lt;0.5km&nbsp;&nbsp;&nbsp;&nbsp;离我最近
+                </p>
+              </li>
+              <li action-type="goto.merchant">
+                <i>查看全部240家分店</i>
+                <i class="yo-ico">&#xe775;</i>
+              </li>
+            </ul>
+          </div>
+          <div class="detail_expense">
+            <ul>
+              <li>消费提示</li>
+              <li>
+                  <ul>
+                    <h3>有效期:</h3>
+                    <li>· 2016年03月01日至2016-05月-01日(周末法定节假日通用)</li>
+                  </ul>
+                  <ul>
+                    <h3>使用时间:</h3>
+                    <li>· 10:30-20:00</li>
+                  </ul>
+                  <ul>
+                    <h3>使用规则</h3>
+                    <li>· 每次消费只限使用1张优惠券，不可叠加使用</li>
+                    <li>· 每次消费只限使用1张优惠券，不可叠加使用</li>
+                    <li>· 每次消费只限使用1张优惠券，不可叠加使用</li>
+                  </ul>
+                  <ul>
+                    <h3>温馨提示:</h3>
+                    <li>· 商家不提供餐后打包服务</li>
+                    <li>· 商家不提供餐后打包服务</li>
+                    <li>· 商家不提供餐后打包服务</li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="detail_review">
+            <ul>
+              <li>评价</li>
+              <li>
+                <ul>
+                  <li>
+                    <p>
+                      1*****5
+                    </p>
+                    <p>
+                      2016-03-02
+                    </p>
+                    <p>
+                      <img src="/hongmenyan/images/xiaoxingxing.png" alt="" />
+                    </p>
+                  </li>
+                  <li>
+                    这次和朋友一起去的，超级好吃的说，味道极好！下次还会光顾。
+                  </li>
+                  <li>
+                    <p>
+                      <img src="/hongmenyan/images/stu1.png"  />
+                    </p>
+                    <p>
+                      <img src="/hongmenyan/images/xtu2.png"  />
+                    </p>
+                    <p>
+                      <img src="/hongmenyan/images/xtu3.png"  />
+                    </p>
+                  </li>
+                  <li>
+                    商家回复：谢谢亲的支持！我们会做的更好！期待您的再次光临！
+                  </li>
+                </ul>
+              </li>
+              <li action-type="goto.review">
+                <i>查看全部50条评价</i>
+                <i class="yo-ico">&#xe775;</i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

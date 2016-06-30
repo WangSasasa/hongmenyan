@@ -1,0 +1,219 @@
+<div class="m-home">
+  <header>
+    <div class="address">
+    </div>
+    <div class="center">
+    </div>
+    <div class="search">
+      <input type="text" placeholder="请输入您要搜索的关键字">
+      <input type="button" >
+    </div>
+  </header>
+  <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+    <!-- banner轮播图 -->
+    <div>
+      <div class="head">
+        <img src="/hongmenyan/images/arrow.png" width="40" height="40"/>
+        <span>下拉刷新...</span>
+      </div>
+      <div class="swiper-container" id="home-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/hongmenyan/images/tu1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/hongmenyan/images/tu2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/hongmenyan/images/tu3.png" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- 小图标 -->
+      <div class="nav1">
+        <div class="navList">
+          <i class="yo-ico" style="color:#27bc9c">&#x35a0;</i>
+          <b>自助餐</b>
+        </div>
+        <div class="navList">
+          <i class="yo-ico" style="color:#fa8562">&#xe638;</i>
+          <b>火锅</b>
+        </div>
+        <div class="navList" style="color:#24b0c9">
+          <i class="yo-ico">&#xe683;</i>
+          <b>甜点饮品</b>
+        </div>
+      </div>
+      <div class="nav2">
+        <div class="navList" style="color:#7a9dbd">
+          <i class="yo-ico">&#xe605;</i>
+          <b>西餐</b>
+        </div>
+        <div class="navList" style="color:#62cc56">
+          <i class="yo-ico">&#xe64d;</i>
+          <b>地方特色</b>
+        </div>
+        <div class="navList" style="color:#946bee">
+          <i class="yo-ico">&#xe64b;</i>
+          <b>小吃快餐</b>
+        </div>
+      </div>
+      <!-- 推荐题目 -->
+      <div class="recommend_title">
+        <i class="yo-ico" style="color:#060666">&#xe9c6;</i>
+        <b>热门推荐</b>
+      </div>
+      <!-- 推荐内容 -->
+      <div class="recommend_list" >
+        <div>
+          <ul ms-repeat-value="homelist" action-type="goto.detail">
+            <li>
+              <img ms-src="value.imgsrc"  />
+            </li>
+            <li>
+              <h3 ms-text="value.title">店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul>
+          <!-- <ul>
+            <li>
+              <img src="/hongmenyan/images/tu4.png"  />
+            </li>
+            <li>
+              <h3>店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="/hongmenyan/images/tu4.png"  />
+            </li>
+            <li>
+              <h3>店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="/hongmenyan/images/tu4.png"  />
+            </li>
+            <li>
+              <h3>店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="/hongmenyan/images/tu4.png"  />
+            </li>
+            <li>
+              <h3>店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="/hongmenyan/images/tu4.png"  />
+            </li>
+            <li>
+              <h3>店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="/hongmenyan/images/tu4.png"  />
+            </li>
+            <li>
+              <h3>店铺名称</h3>
+              <p>
+                简介
+              </p>
+            </li>
+            <li>
+              <p>
+                <img src="/hongmenyan/images/dazhe.png" alt="" />
+              </p>
+              <p>
+                <span>8</span>
+                <span>.8折</span>
+              </p>
+            </li>
+          </ul> -->
+        </div>
+
+      </div>
+      <div class="foot">
+        <img src="/hongmenyan/images/arrow.png" width="40" height="40"/>
+        <span>上拉加载更多...</span>
+      </div>
+    </div>
+  </section>
+</div>

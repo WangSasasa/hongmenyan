@@ -1,0 +1,11 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": {
+      "imgsrc": "/hongmenyan/images/tu3.png",
+      "title": "周黑鸭",
+      "detail":"商家详情"
+    }
+
+}

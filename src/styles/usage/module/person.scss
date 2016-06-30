@@ -1,0 +1,122 @@
+.m-index {
+  .l-container{
+    .m-person{
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      header{
+        height:1.21rem;
+        background: #8e99ff;
+        ul{
+          @include flexbox();
+          height: 100%;
+          li{
+            font-size: .2rem;
+            &:not(:nth-child(2)){
+              width: .44rem;
+              text-align: center;
+              line-height: 1.21rem;
+              color: #fff;
+
+            }
+            &:nth-child(2){
+              @include flex(1);
+              width: 100%;
+              height: 1.09rem;
+              padding: .06rem 0;
+
+              div{
+                width: 100%;
+                height: 100%;
+                i{
+                  display: block;
+                  width: .9rem;
+                  height: .9rem;
+                  @include border-radius(50%);
+                  overflow: hidden;
+                  margin: 0 auto;
+                  img{
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+                p{
+                  font-size: .14rem;
+                  color: #fff;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+
+      }
+      section{
+        @include flex(1);
+        width: 100%;
+        div{
+          .my_nav{
+            background: #fff;
+            height: .44rem;
+            margin: .05rem 0;
+            padding: .17rem 0;
+            @include flexbox();
+            ul{
+              @include flex(1);
+              &:nth-child(1){
+                @include border(0 1px 0 0,#c9c9c9);
+              }
+              li{
+                &:nth-child(1){
+                  text-align: center;
+                  color: #606060;
+                }
+                &:nth-child(2){
+                  i{
+
+                  }
+                  p{
+                    text-align: center;
+                    color: #606060;
+                  }
+                }
+              }
+            }
+          }
+          .my_list{
+            ul{
+              li{
+                height: .5rem;
+                @include border(1px 0 0 0,#dcdcdc);
+                background: #fff;
+                @include flexbox();
+                line-height: .5rem;
+                p{
+                  &:nth-child(1){
+                    width: .5rem;
+                    text-align: center;
+                    font-size: .2rem;
+                    line-height: .5rem;
+                  }
+                  &:nth-child(2){
+                    @include flex(1);
+                    font-size: .17rem;
+                    color: #606060;
+                  }
+                  &:nth-child(3){
+                    width: .5rem;
+                    text-align: center;
+                    color: #606060;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

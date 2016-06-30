@@ -1,0 +1,47 @@
+<div class="m-review">
+  <header>
+    <ul>
+      <li action-type="back" class="yo-ico">&#xe679;</li>
+      <li >支付</li>
+      <li></li>
+    </ul>
+  </header>
+  <section>
+    <div>
+      <div class="pay_list">
+        <ul>
+          <li>对方店铺名称</li>
+          <li>
+            <div>
+              <input type="text" placeholder="输入消费金额">
+            </div>
+          </li>
+          <li>
+            <div>
+              <i class="yo-ico" style="color:#8e99ff">&#xe610;</i>
+              <p>店铺优惠活动</p>
+            </div>
+            <div>
+              <span>8.8</span>
+              <span>折</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="pay_money">
+        <div>
+          <i class="yo-ico" style="color:#e5004f">&#xf0280;</i>
+          <p>实付金额</p>
+        </div>
+      </div>
+      <div class="pay_total">
+        <span></span>
+        <span>合计：</span>
+        <span></span>
+      </div>
+      <div class="pay_sure">
+        <p>确定付款</p>
+      </div>
+    </div>
+  </section>
+</div>

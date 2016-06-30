@@ -1,0 +1,10 @@
+<div class="m-index">
+  <div class="l-container"></div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe607;</i><b>首页</b></li>
+      <li action-type="switch.tabs" data-tag="shop"><i class="yo-ico" >&#xe6ca;</i><b>免费开店</b></li>
+      <li action-type="switch.tabs" data-tag="person"><i class="yo-ico" >&#xe60a;</i><b>个人中心</b></li>
+    </ul>
+  </footer>
+</div>

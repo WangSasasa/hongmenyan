@@ -1,0 +1,227 @@
+.m-index {
+  .l-container{
+    .m-home{
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      header{
+        width:100%;
+        height:.3rem;
+        background: #8e99ff;
+        padding: .07rem;
+        @include flexbox();
+        .address{
+          width: .51rem;
+          padding-left: .1rem;
+        }
+        .center{
+          @include flex(1);
+        }
+        .search{
+          @include flexbox();
+          width: 2.41rem;
+          height: .3rem;
+          background: #fff;
+          margin-right: .16rem;
+          @include border-radius(.03rem);
+          overflow: hidden;
+          input{
+            display: block;
+            border: 0;
+            background-color: #f4f5ff;
+            height: .3rem;
+            &:nth-child(1){
+              @include flex(1);
+              padding-left: .2rem;
+
+            }
+            &:nth-child(2){
+              width: .37rem;
+              @include border(0 0 0 1px, #acb4ff);
+              background: url(/hongmenyan/images/search.png) no-repeat center center;
+              background-size: contain;
+            }
+
+          }
+        }
+      }
+      section{
+        @include flex(1);
+        width: 100%;
+        overflow: hidden;
+        // iscroll pull to refresh
+             .head {
+                 text-align: center;
+                 height: .3rem;
+                 line-height: .3rem;
+             }
+             .head img {
+                 display: inline-block;
+                 transform: rotate(180deg);
+                 -webkit-transform: rotate(180deg);
+                 transition: transform 150ms;
+                 -webkit-transition: transform 150ms;
+                 height: .15rem;
+                 width: .15rem;
+             }
+             .up {
+                 transform: rotate(360deg) !important;
+                 -webkit-transform: rotate(360deg) !important;
+             }
+             .foot {
+                 text-align: center;
+                 height: .3rem;
+                 line-height: .3rem;
+             }
+             .foot img {
+                 display: inline-block;
+                 /*transform: rotate(0deg);*/
+                 /*-webkit-transform: rotate(0deg);*/
+                 transition: transform 150ms;
+                 -webkit-transition: transform 150ms;
+                 height: .15rem;
+                 width: .15rem;
+             }
+             .down {
+                 transform: rotate(180deg) !important;
+                 -webkit-transform: rotate(180deg) !important;
+             }
+        // iscroll pull to refresh over
+        // swiper
+        .swiper-container{
+          //height:1.54rem;
+          height: 100%;
+          width:100%;
+          .swiper-wrapper{
+            height:100%;
+            width:100%;
+            .swiper-slide{
+              //height:100%;
+              //overflow: hidden;
+              width:100%;
+              img{
+                width: 100%;
+                display: block;
+                height: 100%;
+              }
+            }
+          }
+        }
+
+        // nav
+        .nav1,.nav2{
+          background: #fff;
+          //height:.9rem;
+          @include flexbox();
+          .navList{
+            @include flex(1);
+            @include flexbox();
+            @include flex-direction(column);
+            @include align-items(center);
+            //height:100%;
+            i{
+              font-size:.46rem;
+            }
+            b{
+              font-size:.14rem;
+              color:#606060;
+            }
+          }
+        }
+        .nav1{
+            margin-top:.03rem;
+        }
+        // 热门推荐
+        .recommend_title{
+          margin-top: .1rem;
+          background: #a1aafc;
+          height:.29rem;
+          margin-bottom: .03rem;
+          @include flexbox();
+          i,b{
+            display: block;
+          }
+          i{
+            font-size:.16rem;
+            padding: 0 .08rem 0 .18rem;
+            line-height: .29rem;
+          }
+          b{
+            height:100%;
+            font-size:.16rem;
+            line-height: .29rem;
+
+          }
+        }
+        // 推荐内容
+        .recommend_list{
+        //  @include flex(1);
+          width:100%;
+          //overflow: hidden;
+          ul{
+            height:.74rem;
+            margin-top: .03rem;
+            padding: .03rem .07rem;
+            background: #fff;
+            @include flexbox();
+            li{
+
+              &:nth-child(1){
+                padding: 0 .03rem 0 .1rem ;
+                height:.74rem;
+                width: 1.31rem;
+                img{
+                  height: 100%;
+                  width: 100%;
+                }
+              }
+              &:nth-child(2){
+                padding: 0 0 0 .05rem;
+                @include flex(1);
+              }
+              &:nth-child(3){
+                //margin :.03rem .07rem .03rem 0;
+                p{
+                  &:nth-child(1){
+                    width: 1.01rem;
+                    margin-right: .03rem;
+                    img{
+                      width: 100%;
+                      height: 100%;
+                    }
+                  }
+                  &:nth-child(2){
+                    margin: .08rem .38rem 0 .11rem;
+                    padding-top: .02rem;
+                    height: .3rem;
+                    background: url(/hongmenyan/images/xinghzuang.png) no-repeat ;
+                    background-size: contain;
+                    span{
+                    //  display: block;
+                      &:nth-child(1){
+                        padding-left: .05rem;
+                        font-size: .13rem;
+                        color: #ff002a;
+                        line-height: .28rem;
+                      }
+                      &:nth-child(2){
+                        font-size: .11rem;
+                        color:#8e99ff;
+                        line-height: .28rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}

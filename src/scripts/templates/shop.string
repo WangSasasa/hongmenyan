@@ -1,0 +1,19 @@
+<div class="m-shop">
+  <header>
+    <div class="navList">
+      <i></i>
+    </div>
+    <div class="navList">
+      <p></p>
+    </div>
+  </header>
+  <section>
+    <div class="progress">
+      <p>
+        <a href="javascript:;">
+          立即开通
+        </a>
+      </p>
+    </div>
+  </section>
+</div>
